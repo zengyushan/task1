@@ -1,0 +1,28 @@
+html,body{
+    margin: 0;
+}
+.all{
+    border:0;
+    border-style: solid;
+    width:100%;
+}
+.one_square{
+    float: left;
+    border: 0px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: orange;
+    /*正方形*/
+    width: 32%;
+    padding-bottom: 32%;
+    /*height设为0,防止高度溢出,本task没有用上
+    height:0;*/
+    margin:0.5%;
+    /*圆角*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;/*支持火狐*/
+    border-radius:5px;/*4个角半径都是5px*/
+}
+.c{
+    clear:both;
+}
